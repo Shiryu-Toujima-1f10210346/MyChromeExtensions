@@ -9,6 +9,15 @@
     },
     "permissions": [
       "activeTab"
-    ]   
-
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://github.com/*"
+        ],
+        "js": [
+          "src/github.js"
+        ]
+      }
+    ]
   }
