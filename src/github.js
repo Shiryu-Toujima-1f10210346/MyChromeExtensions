@@ -27,6 +27,7 @@ buttonElement.innerText = "Plant!";
 buttonElement.style.borderRadius = "5px";
 buttonElement.style.background = "#1f71eb";
 buttonElement.style.border = "none";
+buttonElement.style.margin = "10px";
 parentElement.insertBefore(buttonElement, parentElement.firstChild);
 console.log("イメージするのは常に最強の自分");
 
