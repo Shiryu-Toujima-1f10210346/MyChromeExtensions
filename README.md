@@ -24,7 +24,7 @@
 
 ## 拝啓　イーロン・マスク様.js
 
-### ページ上にある"Twitter"の文字列をすべてイーロン・マスク様のお好きな"𝕏"に置換できます
+### ページ上にある"Twitter"の文字列をすべてイーロン・マスク様のお好きな"𝕏"に置換できます　カタカナにも対応
 
 https://github.com/Shiryu-Toujima-1f10210346/MyChromeExtensions/assets/85663022/74f828d9-d584-4c0a-915f-34c6dafb9e42
 
