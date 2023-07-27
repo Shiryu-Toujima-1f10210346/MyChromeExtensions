@@ -13,12 +13,19 @@
     "content_scripts": [
       {
         "matches": [
-          "https://github.com/*",
+          "https://github.com/*"
+        ],
+        "js": [
+          "src/github.js"
+        ]
+      },
+      {
+        "matches": [
           "<all_urls>"
         ],
         "js": [
-          "src/github.js",
-          "src/X2Twitter.js"
+          "src/X2Twitter.js",
+          "src/Twitter2X.js"
         ]
       }
     ]

@@ -1,6 +1,6 @@
 document.querySelector("#btn").addEventListener("click", () => {
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-        let rtnPromise = chrome.tabs.sendMessage(tabs[0].id, {message: "clicked_browser_action"});
+        let rtnPromise = chrome.tabs.sendMessage(tabs[0].id, {message: "X2Twitter"});
         rtnPromise
         .then((response) => {
             console.log(response);
@@ -17,7 +17,7 @@ document.querySelector("#btn").addEventListener("click", () => {
 
 document.querySelector("#btn2").addEventListener("click", () => {
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-        let rtnPromise = chrome.tabs.sendMessage(tabs[0].id, {message: "clicked_browser_action"});
+        let rtnPromise = chrome.tabs.sendMessage(tabs[0].id, {message: "Twitter2X"});
         rtnPromise
         .then((response) => {
             console.log(response);
