@@ -22,5 +22,3 @@ chrome.runtime.onMessage.addListener(function() {
         return textNodes;
     }
 });
-
-console.log("X2Twitter.js loaded");
