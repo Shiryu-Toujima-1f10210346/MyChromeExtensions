@@ -1,11 +1,11 @@
 // document.getElementById("grassButton").addEventListener("click", function() {
 //     let elements = document.querySelectorAll('[data-level]');
+
 //     for (let i = 0; i < elements.length; i++) {
 //         elements[i].dataset.level = Math.floor(Math.random() * 4);
 // }   
 //     console.log("hoge");
 // });
-
 let parentElement = document.getElementById("year-list-container");
 let buttonElement = document.createElement("button");
 buttonElement.addEventListener("click", function() {
