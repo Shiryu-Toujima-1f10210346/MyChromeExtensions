@@ -35,6 +35,18 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         }
     }
 
+    else  if (request.message === "エックス2ツイッター") {
+        let elements = document.querySelectorAll("*");
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].innerText.match(/エックス/i)) {
+                let textNodes = getTextNodesIn(elements[i]);
+                for (let j = 0; j < textNodes.length; j++) {
+                    textNodes[j].nodeValue = textNodes[j].nodeValue.replace(/エックス/ig, "ツイッター");
+                }
+            }
+        }
+    }
+    
 
     function getTextNodesIn(node) {
         let textNodes = [];
